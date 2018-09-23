@@ -17,7 +17,7 @@ For Linux people, your package manager should be able to handle all of this. If 
 The files contain one message per line. Each line is composed by two columns:
 - `Class`- contains the label (ham or spam) 
 - `SMS` - contains the raw text.
-## Objectives:
+## Components
 -  Using TF-IDF for feature extraction of the text data for the messages.
 -  Use splits for skewed data(Since the number of ham are far more than the number of spam messages,the data is skewed)
 -  Use stratified shuffled split for the split of skewed data.
