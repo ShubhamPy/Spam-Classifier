@@ -1,7 +1,7 @@
 # Spam Classifier
-In this project I build a model for classifying the SMS into spam or ham through the text of the SMS using standard classifiers.
+In this project I build a model for classifying the SMS/Email into spam or ham through the text of the SMS/Email using standard classifiers.
 
-The SMS Spam Collection is a set of SMS tagged messages that have been collected for SMS Spam research. It contains one set of SMS messages in English of 5,574 messages, tagged according being ham (legitimate) or spam.
+The SMS/Email Spam Collection is a set of SMS tagged messages that have been collected for SMS/Email Spam research. It contains one set of SMS messages in English of 5,567 messages, tagged according being ham (legitimate) or spam.
 ## Prerequisites
 We would highly recommend that before the hack night you have some kind of toolchain and development environment already installed and ready. If you have no idea where to start with this, try a combination like:
 -  `Python`
