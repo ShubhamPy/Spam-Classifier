@@ -12,11 +12,11 @@ We would highly recommend that before the hack night you have some kind of toolc
 -  An environment to work in - something like `Jupyter` or `Spyder`
 For Linux people, your package manager should be able to handle all of this. If it somehow can't, see if you can at least install Python and pip and then use pip to install the above packages.
 ## Dataset:
-> You can [download](https://drive.google.com/open?id=18TGGVR4TqYLY2_sI4sRWMz4ncOidr0Ju) this dataset from here.
+> You can collect raw dataset from [here](https://raw.githubusercontent.com/ShubhamPy/Spam-Classifier/master/spam.tsv).
 ## Dataset Description
 The files contain one message per line. Each line is composed by two columns:
 - `Class`- contains the label (ham or spam) 
-- `SMS` - contains the raw text.
+- `Message` - contains the raw text.
 ## Components
 -  Using TF-IDF for feature extraction of the text data for the messages.
 -  Use splits for skewed data(Since the number of ham are far more than the number of spam messages,the data is skewed)
@@ -30,3 +30,4 @@ The files contain one message per line. Each line is composed by two columns:
 - [ ] Split the skewed data into shuffled sets using stratified shuffle split in sklearn library
 - [ ] Use standard classifiers to classify the data into spam or ham.
 - [ ] Use weighted average f1_score and confusion matrix to compare models
+## Result
