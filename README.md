@@ -55,7 +55,6 @@ The files contain one message per line. Each line is composed by two columns:
 -  Using TF-IDF for feature extraction of the text data for the messages.
 -  Use splits for skewed data(Since the number of ham are far more than the number of spam messages,the data is skewed)
 -  Use stratified shuffled split for the split of skewed data.
-> Refer this [link](http://scikitlearn.org/stable/modules/generated/sklearn.model_selection.StratifiedShuffleSplit.html)
 -  Use different standard classifiers for classification of the SMS.
 -  Compare the accuracy of various classifiers using standard classification metrics
 
