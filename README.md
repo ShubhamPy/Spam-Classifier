@@ -63,3 +63,7 @@ The files contain one message per line. Each line is composed by two columns:
   <br>
   <img src="https://github.com/ShubhamPy/Spam-Classifier/blob/master/Screenshots/predictionScore.png">
 </p>
+
+## Future Scope:
+- Adding this feature in a dynamic website.
+- still more to feature will be added.
