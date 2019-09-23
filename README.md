@@ -65,5 +65,5 @@ The files contain one message per line. Each line is composed by two columns:
 </p>
 
 ## Future Scope:
-- Adding this feature in a dynamic website.
-- still more to feature will be added.
+- Adding this feature in a dynamic website which supports contact-us typo feature.
+- Show live user inputs for Ham and Spam  .
