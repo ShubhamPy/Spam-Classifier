@@ -1,9 +1,0 @@
-{% extends 'navbar.html' %}
-
-{% block content %}
-    <p>{{articles.title}}</p>
-    <p>{{articles.text}}</p>
-    <a href="{% url 'editForm' articles.id %}">Edit</a>
-    <a href="{% url 'articles' %}">Back</a>
-    <a href="{% url 'delete' articles.id %}">Delete</a>
-{% endblock %}
